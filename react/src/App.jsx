@@ -9,7 +9,7 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App-container">
         <header className="App-header">
           <img src="https://cdn.sanity.io/images/cphrnle8/production/dc4e70fbc0520f2a2656a880832b76340277a7d1-3360x1680.webp?rect=560,0,2240,1680&w=800&h=600&q=100" alt="Header" className="header-image" />
           <nav className="navbar">
@@ -31,22 +31,6 @@ function App() {
       </div>
     </Router>
   );
-    <>
-      <div>
-        {/* <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a> */}
-      </div>
-      <Title />
-      
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
 }
 
 export default App;
