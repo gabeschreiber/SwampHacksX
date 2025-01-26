@@ -35,7 +35,8 @@ html{
   right: 0;
   background-color: rgba(0, 0, 0, 0.7);
   padding: 10px 0;
-  border-radius: 8px;
+  border-bottom-left-radius: 8px;  
+  border-bottom-right-radius: 8px;
 }
 
 .navbar ul {
